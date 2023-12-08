@@ -20,6 +20,11 @@ console.log(slugify("Bienvenue a Paris", { lower: true }));
 
 const { loto } = require("./modules/lottery");
 const { gagnant } = require("./modules/lottery");
+const { somme } = require("./modules/sum");
+
+console.log(somme(10));
+
+
 
 console.log(loto({ min: 20, max: 50, count: 5 }));
 
